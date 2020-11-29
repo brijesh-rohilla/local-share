@@ -1,12 +1,6 @@
 # local-share
 
-customized, easy to use that can help you to compress images, with your choice
-
-## Supported format
-
-- .jpg
-- .jaeg
-- .png
+This script convert your computer folder to server that can accessable by local connected devices.
 
 ## How to use
 
@@ -18,7 +12,7 @@ customized, easy to use that can help you to compress images, with your choice
 
 Note:
 
-1. The simply usecase that put your images in `/public/images/[your-image]` folder and run `npm start` in cmd.
-2. If you want to use browser after `npm start` you need to type `http://loacalhost:3000` in your browser.
-
-After compress you can get your file in `public/images-compressed` folder.
+1. open cmd and type `ipconfig` and note your ip address.
+2. The simply usecase that put your files in `/public/FILES/` folder and run `npm start` in cmd. (path in thhis repository)
+3. in your mobile or other device type url `[ip-address]:3000`.
+4. Files will be accessable to download.
