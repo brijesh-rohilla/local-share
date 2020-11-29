@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Local Share</title>
+    <meta name="description" content="Easily share your computer files to mobile." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="theme-color" content="#fafafa" />
+
+    <link rel="stylesheet" href="/normalize.css" />
+    <link rel="stylesheet" href="/main.css" />
+    <link rel="stylesheet" href="/custom.css" />
+  </head>
+
+  <body>
+    <div id="block">
+      <% doc.forEach( (file)=> { %>
+      <a href="<%= file %>" class="btn" download> <%= file %></a>
+      <br /><br />
+      <% }) %>
+    </div>
+  </body>
+</html>
