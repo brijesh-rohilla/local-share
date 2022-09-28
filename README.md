@@ -13,6 +13,6 @@ This script convert your computer folder to server that can accessable by local 
 Note:
 
 1. open cmd and type `ipconfig` and note your ip address.
-2. The simply usecase that put your files in `/public/FILES/` folder and run `npm start` in cmd. (path in thhis repository)
-3. in your mobile or other device type url `[ip-address]:3000`.
+2. The simply usecase that put your files in `/public/FILES/` folder and run `npm start` in cmd. (path in this repository)
+3. In your mobile or other device type url `[ip-address]:3000`.
 4. Files will be accessable to download.

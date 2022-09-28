@@ -1,5 +1,3 @@
-/* eslint-disable no-console */
-/* eslint-disable no-unused-vars */
 const createError = require('http-errors');
 const express = require('express');
 const path = require('path');
@@ -38,7 +36,7 @@ app.get('/', (_req, res) => {
 });
 
 // catch 404 and forward to error handler
-app.use((req, res, next) => {
+app.use((_req, _res, next) => {
   next(createError(404));
 });
 
